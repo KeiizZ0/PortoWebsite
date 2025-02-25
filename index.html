@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-menu">
+        <div class="nav-container">
+            <a href="#home" class="nav-dot active" data-section="home">
+                <i class='bx bx-home'></i>
+            </a>
+            <a href="#projects" class="nav-dot" data-section="projects">
+                <i class='bx bx-folder'></i>
+            </a>
+            <a href="#services" class="nav-dot" data-section="services">
+                <i class='bx bx-briefcase'></i>
+            </a>
+            <a href="#contact" class="nav-dot" data-section="contact">
+                <i class='bx bx-send'></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="grid-container">
+                <!-- Left Sidebar -->
+                <div class="sidebar left-sidebar fade-in">
+                    <div class="card">
+                        <h2 style="font-size: 30px; text-align: left;">About Me</h2>
+                        <p style="font-size: large; text-align: left;">Passionate about creating and designing websites with the best engaging interfaces. I specialize in web development and AI integration.</p>
+                        <br>
+                        <button class="btn primary">
+                        
+                            <i class='bx bx-download' style="font-size: 25px;"></i> Download CV
+                        </button>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="text-align: center; font-size: 30px; margin-bottom: 19px;">Skills</h3>
+                        
+                        <div class="skills-grid">
+                            <img src="image/icons8-html-5-48.png" alt="HTML">
+                            <img src="image/icons8-css-logo-48.png" alt="CSS">
+                            <img src="image/icons8-javascript-48.png" alt="JavaScript">
+                            <img src="image/icons8-python-48.png" alt="Laravel">
+                            <img src="image/icons8-chatgpt-48.png" alt="ChatGPT">
+                            <img src="image/icons8-laravel-64.png" alt="React">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Center Content -->
+                <div class="main-content fade-in">
+                    <div class="profile-container">
+                        <img src="image/cdca2450-7d47-44e6-a7bd-9c51fc45f29c.jpg" alt="Your Name" class="profile-image">
+                        
+                        <div class="profile-info">
+                            <h1>Arif Maulana .S</h1>
+                            <p>Web Developer & AI Enthusiast</p>
+                            <br>
+                            <div class="button-group">
+                                <a href="#projects" class="btn primary">Projects</a>
+                                <a href="#services" class="btn secondary">Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Sidebar -->
+                <div class="sidebar right-sidebar fade-in">
+                    <div class="card">
+                        <h2 style="font-size: 30px; text-align: left;">Connect</h2>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/arif-maulana-syahbasyar-295773352/" target="_blank"><i class='bx bxl-linkedin' style="font-size: 28px;"></i></a>
+                            <a href="https://github.com/KeiizZ0" target="_blank"><i class='bx bxl-github' style="font-size: 28px;"></i></a>
+                           
+                            <!-- ex : aku@gmail.com-->
+                        </div>
+                        <p style="font-size: large; text-align: left;">Located in Indonesia, with several years of experience in web development and AI projects.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2 style="font-size: 30px; text-align: left;">Contact</h2>
+    
+                        <p style="font-size: large; text-align: left;">Send me an email and I'll answer you as soon as possible.</p>
+                        <br>
+                        <br>
+                        
+                        <a href="#contact" class="btn primary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="section-content fade-in">
+        <h2 >Projects</h2>
+        <p>Check out some of my recent work</p>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="image/Sproutify.png" alt="Frontend Website Analis Pertanian">
+                </div>
+                <div class="project-info">
+                    <h3>Website Analis Pertanian</h3>
+                    <p>A responsive frontend for agricultural analysis.</p>
+                    <a href="https://github.com/KeiizZ0/SproutifyWebs" class="btn primary">View Project</a>
+                </div>
+            </div>
+            
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://th.bing.com/th/id/OIP.KL3NAZYPjRnbUvdH_xCIKQAAAA?rs=1&pid=ImgDetMain" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Teaching Factory Project</h3>
+                    <p>School project to create a registration website for the JagooIT Talent Pool.</p>
+                    <a href="https://github.com/KeiizZ0/JagooIT-Talent-Pool" class="btn primary">View Project</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://image.cnbcfm.com/api/v1/image/104768589-movies-anywhere.JPG?v=1507816437&w=1920&h=1080" alt="Project 4">
+                </div>
+                <div class="project-info">
+                    <h3>Trending Movie Website</h3>
+                    <p>View the latest trending movies.</p>
+                    <a href="https://github.com/KeiizZ0/CinemaTrending" class="btn primary">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="image/AI.png" alt="AI Vtube Model">
+                </div>
+                <div class="project-info">
+                    <h3>AI Vtube Model</h3>
+                    <p>Chat or converse with your Vtube Model. It responds using voice!</p>
+                    <a href="https://github.com/KeiizZ0/AI-Vtube-Assistant" class="btn primary">View Project</a>
+                </div>
+            </div>
+            
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://pbs.twimg.com/media/FvSHrgsWcAMVHLF?format=jpg&name=small" alt="Project 5">
+                </div>
+                <div class="project-info">
+                    <h3>Lumi AI (COMING SOON)</h3>
+                    <p>An AI female companion that keeps you company when you feel lonely. Chat and converse with her! </p>
+                    <a href="#" class="btn primary">Coming S..</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="path/to/project6.jpg" alt="Project 6">
+                </div>
+                <div class="project-info">
+                    <h3>Project 6</h3>
+                    <p>Description of project 6.</p>
+                    <a href="#" class="btn primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="section-content fade-in">
+                <h2>Services</h2>
+                <p>What I can do for you?</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Web Development</h3>
+                        <p>Building and effective web applications using the latest technologies.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class='bx bx-brain'></i>
+                        <h3>AI Integration</h3>
+                        <p>Adding basic AI features to enhance functionality.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class='bx bx-palette'></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Create intuitive and visually appealing interfaces that enhance user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-content fade-in">
+                <h2>Contact Me</h2>
+                <p>Let's work together</p>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
